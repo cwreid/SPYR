@@ -1,0 +1,205 @@
+/*
+SPYR
+Version: 1.0
+Last Revision: Wednesday, October 19, 2011
+*/
+
+/* ------- Sitewide Typography ------- */
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 0;
+	background-color: #000000;
+}
+
+h1 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center
+}	
+
+h2 a {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+}	
+
+h2 a:hover {
+	color: #363D52;
+}	
+
+h3 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+h3 a {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+}	
+
+h3 a:hover {
+	color: #363D52;
+}
+
+p {
+	margin-top: 5px;
+	text-align: justify;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#badge_div {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#flash {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#footer h4 {
+	font-weight: bold;
+}
+
+#footer p {
+	margin-top: 0;
+}
+
+
+
+/* ------- Layout ------- */
+body {
+	height: 100%;
+	margin-bottom: 0;
+}
+
+#wrapper {
+	
+	margin: 0 auto;
+	padding: 0;
+	background-color: #000000;
+	background-image: url(../images/body_bg.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 1040px;
+}
+/*
+#header {
+	overflow: hidden;
+}
+*/
+
+#header h1 {
+	margin: 0;
+}
+
+#header h1 a {
+	background-image: url(../images/header_bg.png);
+	background-repeat: no-repeat;
+	width: 1040px;
+	height: 192px;
+	display: inline;
+	margin: 0;
+	text-indent: -9999px;
+	float: left;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+#content {
+	clear: both;
+	width: 1040px;
+	background-image: url(../images/content_bg.png);
+	background-repeat: repeat-y;
+	margin-top: 0;
+	overflow: hidden;
+}
+
+.blocka {
+	width: 400px;
+	margin-left: 70px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding: 0px 10px 10px 10px;
+	float: left;
+}
+
+.blockb {
+	width: 450px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	padding: 0px 10px 10px 10px;
+	float: left;
+}
+
+#video {
+	padding-left: 25px;
+}
+
+#footer {
+	clear: both;
+	background-image: url(../images/footer_bg.png);
+	background-repeat: no-repeat;
+	width: 1040px;
+	height: 192px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+#footer .blocka{
+	padding-top: 90px;
+}
+
+#footer .blockb{
+	padding-top: 50px;
+}
+
+/*
+#footer .block {
+	width: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	padding-top: 15px;
+	float: left;
+}
+*/
+/* Begin IE 6 workarounds for content blocks
+
+
+* html .block {
+	margin-left: 5px;
+}
+
+* html #footer .block {
+	margin-left: 5px;
+}
+
+End IE 6 workarounds for content blocks */
